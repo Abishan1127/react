@@ -1,0 +1,52 @@
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #011224;
+    padding: 10px 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); 
+    width: 98%;
+ 
+  }
+  
+ 
+  .logo img {
+    display: block;
+    border-radius: 50%; 
+    margin-left: 15px;
+  }
+  
+ 
+  .nava {
+    display: flex;
+    align-items: center;
+    gap: 20px; 
+  }
+  
+  .nava h3 {
+    margin: 0;
+    font-size: 16px;
+    color: aliceblue;
+    cursor: pointer; 
+    transition: color 0.3s; 
+  }
+  
+  .nava h3:hover {
+    color: #007bff; 
+  }
+  
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .nava {
+      flex-wrap: wrap; 
+      gap: 10px;
+      margin-top: 10px;
+    }
+  }
+  

@@ -1,0 +1,21 @@
+.last {
+    display: flex;
+    background-color: rgb(34, 34, 44);
+    color: white;
+    justify-content: space-around;
+    margin: 0 100px;
+    padding: 20px 0;
+}
+
+.last div {
+    width: 200px;
+    text-align: left;
+}
+
+.new button {
+    border-radius: 20px;
+    background-color: rgb(154, 240, 240);
+    width: 100px;
+    color: black;
+    border: none;
+}

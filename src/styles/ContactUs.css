@@ -1,0 +1,26 @@
+.five {
+    display: flex;
+    margin: 0 100px;
+    padding: 50px 0;
+}
+
+.FO {
+    padding: 100px;
+    text-align: left;
+}
+
+.FO button {
+    border-radius: 20px;
+    background-color: rgb(154, 240, 240);
+    width: 100px;
+    color: black;
+    border: none;
+}
+
+.FO input, .FO textarea {
+    height: 50px;
+    width: 100%;
+    border-radius: 20px;
+    background-color: rgb(234, 231, 231);
+    margin: 10px 0;
+}
